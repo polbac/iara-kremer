@@ -5,17 +5,17 @@ body.login {
     background: linear-gradient(135deg, #2d92e5 0%,#001bce 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d92e5', endColorstr='#001bce',GradientType=1 ) !important;
     color: #fff !important;
-    background: #0f3687 !important;
+    background: #black !important;
 }
 
 html body.login{
-  background: #0f3687 !important;
+  background: black !important;
 }
 html body.login #login h1{
   visibility: initial;
 }
 html body.login #login h1 a{
-  background: url(/login.png);
+  background: url(/login.png) no-repeat;
   width: 198px;
   height: 200px;
   overflow: auto;
